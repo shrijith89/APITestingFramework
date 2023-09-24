@@ -7,5 +7,4 @@ public class Routes {
 	public static String post_URL = base_URL + "/user";
 	public static String get_URL = base_URL + "/user/{userName}";
 	public static String put_URL = base_URL + "/user/{userName}";
-
 }
