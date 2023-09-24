@@ -20,7 +20,7 @@ public class UserTests {
 		faker = new Faker();
 		userPayload = new User();
 
-		userPayload.setId(faker.idNumber().hashCode());
+		userPayload.setId(String.valueOf(faker.idNumber().hashCode()));
 		userPayload.setUserName(faker.name().username());
 		userPayload.setFirstName(faker.name().firstName());
 		userPayload.setLastName(faker.name().lastName());
@@ -39,13 +39,11 @@ public class UserTests {
 	public void testGetUser() {
 		UserEndPoints.getUser(userPayload.getUserName());
 	}
-	
+
 	@Test
 	public void testPutUser() {
 		userPayload.setUserName(faker.name().username());
-		UserEndPoints.updateUser(userPayload.getUserName(),userPayload);
+		UserEndPoints.updateUser(userPayload.getUserName(), userPayload);
 	}
-	
-	
 
 }

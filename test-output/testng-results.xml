@@ -2,28 +2,135 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-24T16:53:31 IST" name="Default suite" finished-at="2023-09-24T16:53:39 IST" duration-ms="8538">
+  <suite started-at="2023-09-24T20:39:33 IST" name="Default suite" finished-at="2023-09-24T20:39:42 IST" duration-ms="8882">
     <groups>
     </groups>
-    <test started-at="2023-09-24T16:53:31 IST" name="Default test" finished-at="2023-09-24T16:53:39 IST" duration-ms="8538">
-      <class name="api.test.UserTests">
-        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.test.UserTests@15c43bd9]" started-at="2023-09-24T16:53:31 IST" name="setUpData" finished-at="2023-09-24T16:53:31 IST" duration-ms="576" status="PASS">
+    <test started-at="2023-09-24T20:39:33 IST" name="Default test" finished-at="2023-09-24T20:39:42 IST" duration-ms="8882">
+      <class name="api.test.DDTests">
+        <test-method signature="testPostMultipleUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTests@353d0772]" started-at="2023-09-24T20:39:34 IST" name="testPostMultipleUser" data-provider="Data" finished-at="2023-09-24T20:39:39 IST" duration-ms="4805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testuser1@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9876541231]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpData -->
-        <test-method signature="testGetUser()[pri:0, instance:api.test.UserTests@15c43bd9]" started-at="2023-09-24T16:53:31 IST" name="testGetUser" finished-at="2023-09-24T16:53:35 IST" duration-ms="4152" status="PASS">
+        </test-method> <!-- testPostMultipleUser -->
+        <test-method signature="testPostMultipleUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTests@353d0772]" started-at="2023-09-24T20:39:39 IST" name="testPostMultipleUser" data-provider="Data" finished-at="2023-09-24T20:39:41 IST" duration-ms="1603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1011]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testuser2@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[231]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9313343212]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetUser -->
-        <test-method signature="testPostUser()[pri:0, instance:api.test.UserTests@15c43bd9]" started-at="2023-09-24T16:53:35 IST" name="testPostUser" finished-at="2023-09-24T16:53:38 IST" duration-ms="2167" status="PASS">
+        </test-method> <!-- testPostMultipleUser -->
+        <test-method signature="testPostMultipleUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTests@353d0772]" started-at="2023-09-24T20:39:41 IST" name="testPostMultipleUser" data-provider="Data" finished-at="2023-09-24T20:39:42 IST" duration-ms="1226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1012]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testuser3@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[321]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[6313141313]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPostUser -->
-        <test-method signature="testPutUser()[pri:0, instance:api.test.UserTests@15c43bd9]" started-at="2023-09-24T16:53:38 IST" name="testPutUser" finished-at="2023-09-24T16:53:39 IST" duration-ms="1564" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPutUser -->
-      </class> <!-- api.test.UserTests -->
+        </test-method> <!-- testPostMultipleUser -->
+      </class> <!-- api.test.DDTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
