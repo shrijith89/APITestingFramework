@@ -37,7 +37,15 @@ public class UserTests {
 
 	@Test
 	public void testGetUser() {
-		UserEndPoints.getUser(this.userPayload.getUserName());
+		UserEndPoints.getUser(userPayload.getUserName());
 	}
+	
+	@Test
+	public void testPutUser() {
+		userPayload.setUserName(faker.name().username());
+		UserEndPoints.updateUser(userPayload.getUserName(),userPayload);
+	}
+	
+	
 
 }

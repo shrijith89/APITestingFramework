@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-24T15:40:29 IST" name="Default suite" finished-at="2023-09-24T15:40:34 IST" duration-ms="4493">
+  <suite started-at="2023-09-24T16:53:31 IST" name="Default suite" finished-at="2023-09-24T16:53:39 IST" duration-ms="8538">
     <groups>
     </groups>
-    <test started-at="2023-09-24T15:40:29 IST" name="Default test" finished-at="2023-09-24T15:40:34 IST" duration-ms="4493">
+    <test started-at="2023-09-24T16:53:31 IST" name="Default test" finished-at="2023-09-24T16:53:39 IST" duration-ms="8538">
       <class name="api.test.UserTests">
-        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.test.UserTests@2145b572]" started-at="2023-09-24T15:40:30 IST" name="setUpData" finished-at="2023-09-24T15:40:30 IST" duration-ms="568" status="PASS">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.test.UserTests@15c43bd9]" started-at="2023-09-24T16:53:31 IST" name="setUpData" finished-at="2023-09-24T16:53:31 IST" duration-ms="576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpData -->
-        <test-method signature="testGetUser()[pri:0, instance:api.test.UserTests@2145b572]" started-at="2023-09-24T15:40:30 IST" name="testGetUser" finished-at="2023-09-24T15:40:34 IST" duration-ms="3851" status="PASS">
+        <test-method signature="testGetUser()[pri:0, instance:api.test.UserTests@15c43bd9]" started-at="2023-09-24T16:53:31 IST" name="testGetUser" finished-at="2023-09-24T16:53:35 IST" duration-ms="4152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUser -->
+        <test-method signature="testPostUser()[pri:0, instance:api.test.UserTests@15c43bd9]" started-at="2023-09-24T16:53:35 IST" name="testPostUser" finished-at="2023-09-24T16:53:38 IST" duration-ms="2167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPutUser()[pri:0, instance:api.test.UserTests@15c43bd9]" started-at="2023-09-24T16:53:38 IST" name="testPutUser" finished-at="2023-09-24T16:53:39 IST" duration-ms="1564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutUser -->
       </class> <!-- api.test.UserTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

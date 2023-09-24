@@ -22,4 +22,9 @@ public class UserEndPoints {
 		return response;
 	}
 
+	public static Response updateUser(String userName, User payload) {
+		Response response = given().pathParam("userName", userName).body(payload).contentType(ContentType.JSON).put(Routes.put_URL);
+		return response;
+	}
+
 }
