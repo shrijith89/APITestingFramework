@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-24T20:39:33 IST" name="Default suite" finished-at="2023-09-24T20:39:42 IST" duration-ms="8882">
+  <suite started-at="2023-09-26T22:52:47 IST" name="Suite" finished-at="2023-09-26T22:52:59 IST" duration-ms="12199">
     <groups>
     </groups>
-    <test started-at="2023-09-24T20:39:33 IST" name="Default test" finished-at="2023-09-24T20:39:42 IST" duration-ms="8882">
+    <test started-at="2023-09-26T22:52:47 IST" name="Test" finished-at="2023-09-26T22:52:59 IST" duration-ms="12199">
       <class name="api.test.DDTests">
-        <test-method signature="testPostMultipleUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTests@353d0772]" started-at="2023-09-24T20:39:34 IST" name="testPostMultipleUser" data-provider="Data" finished-at="2023-09-24T20:39:39 IST" duration-ms="4805" status="PASS">
+        <test-method signature="testPostMultipleUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTests@2667f029]" started-at="2023-09-26T22:52:50 IST" name="testPostMultipleUser" data-provider="Data" finished-at="2023-09-26T22:52:56 IST" duration-ms="6042" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostMultipleUser -->
-        <test-method signature="testPostMultipleUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTests@353d0772]" started-at="2023-09-24T20:39:39 IST" name="testPostMultipleUser" data-provider="Data" finished-at="2023-09-24T20:39:41 IST" duration-ms="1603" status="PASS">
+        <test-method signature="testPostMultipleUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTests@2667f029]" started-at="2023-09-26T22:52:56 IST" name="testPostMultipleUser" data-provider="Data" finished-at="2023-09-26T22:52:58 IST" duration-ms="1580" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostMultipleUser -->
-        <test-method signature="testPostMultipleUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTests@353d0772]" started-at="2023-09-24T20:39:41 IST" name="testPostMultipleUser" data-provider="Data" finished-at="2023-09-24T20:39:42 IST" duration-ms="1226" status="PASS">
+        <test-method signature="testPostMultipleUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTests@2667f029]" started-at="2023-09-26T22:52:58 IST" name="testPostMultipleUser" data-provider="Data" finished-at="2023-09-26T22:52:59 IST" duration-ms="1530" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -131,6 +131,6 @@
           </reporter-output>
         </test-method> <!-- testPostMultipleUser -->
       </class> <!-- api.test.DDTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
